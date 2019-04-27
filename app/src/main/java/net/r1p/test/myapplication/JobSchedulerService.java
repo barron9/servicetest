@@ -9,7 +9,7 @@ public class JobSchedulerService extends JobService {
     public boolean onStartJob(JobParameters params) {
         Log.e("gmservicetest", "gmservicetest");
 
-        return false;
+        return ;
     }
 
     @Override
